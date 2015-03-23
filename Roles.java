@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 public class Roles {
-public static void main(String [] args) {
+	public static void main(String [] args) {
 		String Administrator, Faculty, Staff, Student, Guest, UserRole;
 		UserRole = JOptionPane.showInputDialog("Please choose a role: " + "\n" +
 		"- Administrator" + "\n" + "- Faculty" + "\n" + "- Staff" + "\n" +
